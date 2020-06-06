@@ -1,7 +1,7 @@
 ---
 title: Neesoon Biodiversity
 author: Bilgenur Baloglu
-layout: page
+layout: post
 categories: research
 tags: [biodiversity, metabarcoding]
 image: Neesoon.png
