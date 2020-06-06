@@ -4,7 +4,7 @@ author: Bilgenur Baloglu
 layout: post
 categories: research
 tags: [biodiversity, metabarcoding]
-image: Neesoon.png
+image: bedok_reservoir.png
 display_img: True
 ---
 
