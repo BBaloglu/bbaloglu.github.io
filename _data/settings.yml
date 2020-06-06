@@ -4,6 +4,7 @@ disqus:
   disqus_shortname: 'bilgehub'
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
+# UA-168718429-1
 google-ID: ""
 
 menu:
