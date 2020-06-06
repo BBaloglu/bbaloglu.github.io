@@ -2,6 +2,7 @@
 layout: page
 title: "Curriculum Vitae"
 image: cv.jpg
+categories: cv
 display_img: false
 ---
 
