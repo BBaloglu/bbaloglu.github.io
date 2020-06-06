@@ -1,6 +1,6 @@
 ---
 title: Research
-layout: page
+layout: misc
 sect: home
 image: seg.png
 ---
