@@ -9,7 +9,7 @@ google-ID: ""
 
 menu:
 - {name: 'About', folder: 'pages', file: 'about.html'}
-- {name: 'CV', folder: 'pages', file: 'cv.html'}
+  #- {name: 'CV', folder: 'pages', file: 'cv.html'}
   #- {name: 'Research', folder: 'pages', file: 'research.html'}
   #- {name: 'Blog', folder: 'pages', file: 'blog.html'}
 
