@@ -1,0 +1,43 @@
+- pub:
+  title: "A workflow for accurate metabarcoding using nanopore MinION sequencing"
+  authors: "**Bilgenur Baloğlu**, Zhewei Chen, Vasco Elbrecht, Thomas Braukmann, Shanna MacDonald, Dirk Steinke."
+  journal: "preprint on bioRxiv"
+  year: 2020
+  doi: "10.1101/2020.05.21.108852v1"
+  links:
+    Open Access PDF: "https://www.biorxiv.org/content/10.1101/2020.05.21.108852v1.full.pdf"
+    GitHub Repository: "https://github.com/bbaloglu/ashure"
+
+- pub: 
+  title: "A MinION‐based pipeline for fast and cost‐effective DNA barcoding"
+  authors: "Amrita Srivathsan, **Bilgenur Baloğlu**, Wendy Wang, Wei Xin Tan, Denis Bertrand, Amanda Hui Qi Ng, Esther Jia Hui Boey, Jayce Jia Yu Koh, Niranjan Nagarajan, Rudolf Meier"
+  journal: "Molecular Ecology Resources"
+  year: 2018
+  volume: 18
+  issue: "(5)"
+  doi: "10.1111/1755-0998.12890"
+  links:
+    Open Access PDF: "https://www.biorxiv.org/content/10.1101/253625v1.full.pdf"
+
+- pub: 
+  title: "NGS barcoding reveals high resistance of a hyperdiverse chironomid (Diptera) swamp fauna against invasion from adjacent freshwater reservoirs"
+  authors: "**Bilgenur Baloğlu**, Esther Clews, Rudolf Meier"
+  journal: "Frontiers in Zoology"
+  year: 2018
+  volume: 15
+  issue: "(1)"
+  doi: "10.1186/s12983-018-0276-7"
+  links:
+    Open Access PDF: "https://frontiersinzoology.biomedcentral.com/track/pdf/10.1186/s12983-018-0276-7"
+    
+- pub: 
+  title: "Next-generation freshwater bioassessment: eDNA metabarcoding with a conserved metazoan primer reveals species-rich and reservoir-specific communities"
+  authors: "Nicholas KM Lim, Ywee Chieh Tay, Amrita Srivathsan, Jonathan WT Tan, Jeffrey TB Kwik, **Bilgenur Baloğlu**, Rudolf Meier, Darren CJ Yeo"
+  journal: "Royal Society open science"
+  year: 2016
+  volume: 3
+  issue: "(11)"
+  doi: "10.1098/rsos.160635"
+  links:
+    Open Access PDF: "https://royalsocietypublishing.org/doi/pdf/10.1098/rsos.160635"
+ 
