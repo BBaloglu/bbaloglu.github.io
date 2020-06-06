@@ -1,8 +1,9 @@
 ---
-title: Research
+title: Projects
 layout: page
 sect: home
 image: midge.png
+display_img: False
 ---
 
 Below is a list of my research projects. Links to my code repository and papers are included below. If you have trouble accessing data from our past studies, please let me know.
