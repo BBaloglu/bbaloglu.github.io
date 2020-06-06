@@ -3,13 +3,4 @@ layout: misc
 title: About
 ---
 
-<center>
-  <div>
-  <img src="{{site.github_url}}/assets/img/bilgenur.jpg">
-  </div>
-</center>
-
-I’m a molecular biologist and data scientist, currently in the lab of Dirk Steinke at the [Centre for Biodiversity Genomics](https://biodiversitygenomics.net/), University of Guelph.
-
-I am passionate about aquatic research, method development for DNA sequencing technologies, and data science. Outside of science, I love travelling and climbing.
-
+Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for your publication site or blog. You can find everything you need to get started under documentation. For more information on how to install and use this theme, check out [the documentation]({{ site.github.url }}{% post_url 2016-10-10-getting-started %}).
