@@ -22,4 +22,3 @@ To test if the MinION™ represents a viable alternative to other sequencing pla
 
 <hr style="margin-left: auto; margin-right: auto; width: 60%; color: #f2f2f2">
 
-
