@@ -1,5 +1,5 @@
 ---
-title: Resolving an Insect Outbreak with NGS
+title: Resolving an Insect Outbreak with Next Generation Sequencing
 author: Bilgenur Baloglu
 layout: post
 categories: research
