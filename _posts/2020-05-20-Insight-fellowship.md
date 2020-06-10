@@ -1,5 +1,5 @@
 ---
-title: "I won the Insight fellowship and then I rejected it"
+title: "Insight and Out of Sight"
 author: "Bilgenur Baloglu"
 layout: post
 categories: blog
