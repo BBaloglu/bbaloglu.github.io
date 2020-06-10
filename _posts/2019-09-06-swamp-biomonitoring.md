@@ -5,6 +5,8 @@ layout: post
 categories: blog
 tags: [NGS, swamp forest, Singapore, tropics, biodiversity]
 display_img: False
+link: true
+link_url: "https://ibol.org/barcodebulletin/wp-content/uploads/2019/09/2019_Baloglu.pdf"
 ---
 
 I wrote a SciComm piece for [International Barcode of Life Barcode Bulletin](https://ibol.org/barcodebulletin/) on my 'swamp forest biomonitoring with NGS' research paper. 
