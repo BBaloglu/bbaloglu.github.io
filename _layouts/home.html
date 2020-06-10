@@ -3,36 +3,11 @@ layout: default
 title: Home
 ---
 
-<img src="{{site.github_url}}/assets/img/turkish_delight.jpeg" style="width: 70%">
+<img src="{{site.github_url}}/assets/img/bilgenur.jpg" style="width: 25%">
 
 <div style="padding-top: 20px; padding-bottom: 20px; width: 60%; font-family: Cardo; margin-left: auto; margin-right:
 auto; line-height: 1.8em;  text-align: justify; text-justify: inter-word;">
-Merhabalar arkadaslar! Hosgeldiniz! I am Bilge and welcome to BilgeHub. This is where I host my collected works and projects. I am a NGS and bioinformatics scientist working in the field of nanopore sequencing, metagenomics, and biomonitoring. In my free time, I enjoy climbing, baking, and scuba diving.
+I’m a molecular biologist and data scientist, currently in the lab of Dirk Steinke at the Centre for Biodiversity Genomics, University of Guelph. I am passionate about aquatic research, method development for DNA sequencing technologies, and data science. Outside of science, I love travelling and climbing.
 </div>
 
-{% for post in paginator.posts %}
 
-<article>
-  <a href="{{ site.github.url }}{{ post.url }}">
-    <div class="featured-posts" {% if post.image %} style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})" {% endif %}>
-      <h2><span>{{ post.title }}</span></h2>
-    </div>
-  </a>
-</article>
-
-{% endfor %}
-
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
-  {% else %}
-    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
-  {% endif %}
-
-  {% if paginator.previous_page %}
-    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
-    {% else %}
-      <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
-  {% endif %}
-</div>
