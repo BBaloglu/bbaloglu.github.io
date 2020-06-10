@@ -7,7 +7,7 @@ disqus:
 google-ID: "UA-168718429-1"
 
 menu:
-- {name: 'CV', folder: 'cv', file: 'cv.html'}
+#- {name: 'CV', folder: 'cv', file: 'cv.html'}
 - {name: 'Projects', folder: 'pages', file: 'research.html'}
 - {name: 'Blog', folder: 'pages', file: 'blog.html'}
 - {name: 'Photography', folder: 'pages', file: 'photography.html' }
