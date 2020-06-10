@@ -1,5 +1,5 @@
 ---
-title: Validation and development of freshwater invertebrate metabarcoding primers 
+title: Optimizing workflows for freshwater metabarcoding 
 author: Bilgenur Baloglu
 layout: post
 categories: research
