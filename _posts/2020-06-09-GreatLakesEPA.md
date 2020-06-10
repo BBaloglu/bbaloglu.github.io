@@ -16,11 +16,7 @@ Understanding and managing the impacts of anthropogenic changes on biodiversity,
 managing aquatic biodiversity needs to involve both academic and government institutions as well as stakeholders spanning farmers, fisherman, global transport 
 companies and policy makers in order to better inform environmental risk assessment, policy development, and natural resource management.
 
-Taking on the challenge to build a regional aquatic biodiversity barcode database, the Great Lakes Barcoding Project, funded via cooperative agreements by the United States Environmental Protection Agency (EPA), 
-aims to build a comprehensive genetic barcode library for aquatic invertebrates in the Laurentian Great Lakes watershed (Figure 1). The goal is to improve biodiversity monitoring, provide early detection of 
-nonindigenous species, and inform management efforts to protect biodiversity from threats including climate change, pollution, and invasive species. 
+Taking on the challenge to build a regional aquatic biodiversity barcode database, the Great Lakes Barcoding Project, funded via cooperative agreements by the United States Environmental Protection Agency (EPA), aims to build a comprehensive genetic barcode library for aquatic invertebrates in the Laurentian Great Lakes watershed. 
 
-<img src="{{site.github_url}}/assets/img/greatlakes.png" style="width: 70%">
-
-<hr style="margin-left: auto; margin-right: auto; width: 60%; color: #f2f2f2">
+The goal is to improve biodiversity monitoring, provide early detection of nonindigenous species, and inform management efforts to protect biodiversity from threats including climate change, pollution, and invasive species. 
 
