@@ -6,8 +6,8 @@ categories: blog
 tags: [machine learning, ocean, biodiversity]
 image: GOPR1495.jpg
 display_img: True
-link_url: True
-url: https://towardsdatascience.com/tackling-climate-crisis-with-machine-learning-d9426fe1f5a9
+link: true
+link_url: "https://towardsdatascience.com/tackling-climate-crisis-with-machine-learning-d9426fe1f5a9" 
 ---
 
 <hr style="margin-left: auto; margin-right: auto; width: 60%; color: #f2f2f2">
