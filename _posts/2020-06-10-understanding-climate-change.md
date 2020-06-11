@@ -20,5 +20,5 @@ with increased warming and precipitation in polar regions. This assessment will 
 allow a first peak into the effects of a changing climate within a decade. As the life cycle of chironomids is temperature-dependent, their distributions are very likely to change with increased 
 warming periods. 
 
-Manuscript in progress.
+This project got awarded by [Northern Research Fund (NRF) 2019](https://churchillscience.ca/researchers/funding-opportunities/) and sponsored through the Centre for Biodiversity Genomics (CBG). I am the PI in this project. Manuscript in progress.
 
