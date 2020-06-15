@@ -1,5 +1,5 @@
 ---
-title: "I am invited to give talks at [Istanbul University](https://www.istanbul.edu.tr/en/) and [Istanbul Technical University](http://www.global.itu.edu.tr/)."
+title: "I am invited to give talks at Istanbul University and Istanbul Technical University."
 author: "Bilgenur Baloglu"
 layout: post
 categories: blog
