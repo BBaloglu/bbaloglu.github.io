@@ -1,5 +1,5 @@
 ---
-title: "I led the scicomm piece on our Great Lakes DNA barcoding project funded by U.S. EPA"
+title: "Our scicomm piece on the U.S. EPA funded Great Lakes DNA barcoding project is online!"
 author: "Bilgenur Baloglu"
 layout: post
 categories: blog
