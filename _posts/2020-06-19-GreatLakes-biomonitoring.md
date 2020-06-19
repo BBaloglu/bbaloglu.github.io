@@ -3,7 +3,7 @@ title: "What can’t be measured won’t be managed: Scientists and U.S. Environ
 author: "Bilgenur Baloglu"
 layout: post
 categories: blog
-tags: [NGS, DNA barcoding, Great Lakes, biodiversity, policy, freshwater]
+tags: [NGS, DNA barcoding, Great Lakes, biodiversity, policy, freshwater, biomonitoring]
 display_img: False
 link: true
 link_url: "https://ibol.org/barcodebulletin/nation-activities/what-cant-be-measured-cant-be-managed-scientists-and-us-epa-work-together-to-conserve-great-lakes/"
