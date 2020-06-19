@@ -1,5 +1,5 @@
 ---
-title: "What can’t be measured won’t be managed: Scientists and U.S. Environmental Protection Agency work together to conserve the Great Lakes"
+title: "I led the scicomm piece on our Great Lakes DNA barcoding project funded by U.S. EPA"
 author: "Bilgenur Baloglu"
 layout: post
 categories: blog
