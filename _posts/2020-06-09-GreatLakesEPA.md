@@ -11,6 +11,7 @@ display_img: True
 <hr style="margin-left: auto; margin-right: auto; width: 60%; color: #f2f2f2">
 
 ## How do we use DNA barcoding to monitor biodiversity in the Great Lakes?
+[\[**Scicomm piece**\]](https://ibol.org/barcodebulletin/nation-activities/what-cant-be-measured-cant-be-managed-scientists-and-us-epa-work-together-to-conserve-great-lakes/)
 
 Understanding and managing the impacts of anthropogenic changes on biodiversity, especially in freshwaters, is a major challenge for 21st century biologists. Monitoring and 
 managing aquatic biodiversity needs to involve both academic and government institutions as well as stakeholders spanning farmers, fisherman, global transport 
