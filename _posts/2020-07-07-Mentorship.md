@@ -71,7 +71,7 @@ Merhaba arkadaşlar! Enerji dolu, idealleri olan pek çok öğrenciden farklı m
 
 ## KODLAMA VE YAZILIM 
 
-11. Lisansın sonlarına geldiğim için acaba ne yapmalıyım, kendimi nasıl geliştirmeliyim, hangi alanda ilerlemeliyim gibi sorular döngüsünde buldum kendimi. Bu yollardan hem de aynı okuldan geçmiş biri olarak, kendimi geliştirebilmem için nasıl tavsiyeler verebilirsiniz?  
+11. Lisansın sonlarına geldiğim için acaba ne yapmalıyım, kendimi nasıl geliştirmeliyim, hangi alanda ilerlemeliyim gibi sorular döngüsünde buldum kendimi. Bu yollardan hem de aynı okuldan geçmiş biri olarak, kendimi geliştirebilmem için nasıl tavsiyeler verebilirsiniz? 
    1. Biyoinformatik alanında kendini geliştirmeni şiddetle tavsiye ederim, ben hâlâ online dersler alıyorum. 
    2. Devir sadece biyolojik bilgi üretme devri değil, analizini yapabilmek de onemli. Sadece öğrenmek değil öğretmek de bu süreçte oldukça faydalı olacaktır. Mesela ben lisanstayken EMBL Heidelberg'de Peer Bork’un grubunda bir staj yaptım, döndükten sonra lisanstan bir arkadaşım ile ITU MBG'de haftalık biyoinformatik çalıştayı başlattık, önce kendimiz çalışıp sonra da interaktif bir şekilde belli biyoenformatik araç ve veritabanlarını (BLAST, ENSEMBL, PDB gibi) öğretiyorduk. Mesela sen de bir çalıştayın liderliğini yapabilirsin. Öğretmek veya anlatmak için öğrenmek bana kalırsa en etkili öğrenme yollarından birisi.
    3. Önerebileceğim birkaç Python dersi 
