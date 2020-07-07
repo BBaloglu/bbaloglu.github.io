@@ -14,7 +14,7 @@ Merhaba arkadaşlar! Enerji dolu, idealleri olan pek çok öğrenciden farklı m
 
 ## LİSANS TAVSİYELERİ 
 
-1. Üniversite seçerken hangi kriterlere önem vermeliyim? Akademik kadro mu (başarıları, yayınları, makaleleri vb.) mi yurt dışı imkanları mı (zaten İngilizce okumayı düşünüyorum) gibi kriterler üzerinden ne yorum yaparsınız? 
+1. Üniversite seçerken hangi kriterlere önem vermeliyim? Akademik kadro mu (başarıları, yayınları, makaleleri vb.) mi yurt dışı imkanları mı (zaten İngilizce okumayı düşünüyorum) gibi kriterler üzerinden ne yorum yaparsınız?
    1. Akademik kısmı düşünmek için belki erken olabilir, sonuçta o noktada okul başarısı değil, çalışmak istediğin hocanın yayınları, tanınırlığı vs önemli.
    2. Şimdiden neyi çalışmak istediğini biliyorsan (genel de olsa) hoca spesifik bakabilirsin.
    3. Yurt dışı imkanları için lisans yaparken yurt dışında tecrübe kazanmak açısından üniversitenin değişim programı anlaşmaları onemli. Farklı ülkelerle staj, Erasmus anlaşmaları var mi, bunlara bak. 
