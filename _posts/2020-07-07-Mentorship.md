@@ -59,19 +59,19 @@ Merhaba arkadaşlar! Enerji dolu, idealleri olan pek çok öğrenciden farklı m
 ## EKOLOJİ İÇİN NEREDEN BAŞLAYAYIM? 
 
 9. Ekoloji alanında uzmanlaşmak istiyorum o yüzden size sormak istedim, herhangi bir tavsiyeniz olur mu? Ayrıca bir hocayla görüştüğümde ekolog olmak istiyorsan biyoloji bölümünde okuman gerekiyor tarzında şeyler duydum, bu doğru mu? 
-   1. Stajlara ağırlık vermeni, arazi tecrübesi kazanmanı öneririm. KuzeyDoğa Derneği'nin çalışmalarına göz atabilir, onlarla gönüllü çalışmalara katılabilirsin. İTÜ’den mezun olduktan sonra KuzeyDoga Derneği'nde iki ay kadar gönüllü çalıştım, orada da Cagan Sekercioglu ve Sean Anderson'un tecrübelerinden baya yararlandım, dernek benim için oldukça verimli oldu, hem Türkiye'deki diğer derneklerden kişilerle kurduğum bağlantılar anlamında, hem Bilim.org'a yazmaya o dönemde başlamam dolayısıyla hem de ne yapmak istediğimi kafamda netleştirdiği için. 
+   1. Stajlara ağırlık vermeni, arazi tecrübesi kazanmanı öneririm. KuzeyDoğa Derneği'nin çalışmalarına göz atabilir, onlarla gönüllü çalışmalara katılabilirsin. İTÜ’den mezun olduktan sonra [KuzeyDoga Derneği'nde](https://www.kuzeydoga.net/) iki ay kadar gönüllü çalıştım, orada da Cagan Sekercioglu ve Sean Anderson'un tecrübelerinden baya yararlandım, dernek benim için oldukça verimli oldu, hem Türkiye'deki diğer derneklerden kişilerle kurduğum bağlantılar anlamında, hem [Bilim.org'a yazmaya o dönemde başlamam dolayısıyla](https://www.bilim.org/kuyucuk-golu-sulak-alan-restorasyon-projesi/) hem de ne yapmak istediğimi kafamda netleştirdiği için. 
    2. Hacettepe ve ODTÜ’deki biyoloji bölümlerinde daha ekoloji ağırlıklı dersler alman mümkün ama MBG okuyup da ekoloji, moleküler ekoloji ve benzeri alanlara kayman mümkün. 
    3. Her halükarda kodlamaya ağırlık vermeni öneririm. R ve Python öğrenilmesi gereken araçlardan ikisi. Udemy ve Coursera'da ücretsiz pek çok ders var. Bkz. 11c. 
    4. Ekolojinin de farklı dalları var, mesela modelleme bir seçenek olabilir ilerisi için. Bu alanda pek çok proje görüyorum. 
 10. Ben ekoloji çalışmaya karar verdim ama sorun şu ki şu an biraz kaybolmuş durumdayım. Çünkü ne yapmam gerektiğini ya da nereden başlamam gerektiğini bilmiyorum. Şimdiden bir şeyler öğrenmem gerektiğini bir şekilde başlamam gerektiğini düşünüyorum. Bununla ilgili tavsiyelerine açığım. 
-   1. Staj onemli. Bunun için bkz. 5a. 
+   1. Staj onemli. Bunun için bkz. 5a.
    2. Ortalamaya ilk etapta baktıklarını sanmam, elinde iyi düzenlenmiş bir CV'n olsun ama. 
    3. Türkiye'de iken asistanlık falan yapabilirsin belki, kendini düşündüğün alanda kullanılan teknikler için geliştirebilirsin, ne bileyim bir programlama dili öğrenmek gibi eğer biyoenformatik bağlantılı bir şeyler yapmak istersen. 
    4. Ne yapmak istediğini su anda bilmiyor olabilirsin ama tecrübelerinle şekillenecek. Kendini geliştirmeye bak, farklı lablara gir çık, saha da olsun dersen mesela KuzeyDoğa'da çalışmalara katıl. 
 
 ## KODLAMA VE YAZILIM 
 
-11. 3. sınıfı yarılamış olmanın da vermiş olduğu acaba ne yapmalıyım, kendimi nasıl geliştirmeliyim, hangi alanda ilerlemeliyim gibi sorular döngüsünde buldum kendimi. Bu yollardan hem de aynı okuldan geçmiş biri olarak, kendimi geliştirebilmem için nasıl tavsiyeler verebilirsiniz? 
+11. Lisansın sonlarına geldiğim için acaba ne yapmalıyım, kendimi nasıl geliştirmeliyim, hangi alanda ilerlemeliyim gibi sorular döngüsünde buldum kendimi. Bu yollardan hem de aynı okuldan geçmiş biri olarak, kendimi geliştirebilmem için nasıl tavsiyeler verebilirsiniz?  
    1. Biyoinformatik alanında kendini geliştirmeni şiddetle tavsiye ederim, ben hâlâ online dersler alıyorum. 
    2. Devir sadece biyolojik bilgi üretme devri değil, analizini yapabilmek de onemli. Sadece öğrenmek değil öğretmek de bu süreçte oldukça faydalı olacaktır. Mesela ben lisanstayken EMBL Heidelberg'de Peer Bork’un grubunda bir staj yaptım, döndükten sonra lisanstan bir arkadaşım ile ITU MBG'de haftalık biyoinformatik çalıştayı başlattık, önce kendimiz çalışıp sonra da interaktif bir şekilde belli biyoenformatik araç ve veritabanlarını (BLAST, ENSEMBL, PDB gibi) öğretiyorduk. Mesela sen de bir çalıştayın liderliğini yapabilirsin. Öğretmek veya anlatmak için öğrenmek bana kalırsa en etkili öğrenme yollarından birisi.
    3. Önerebileceğim birkaç Python dersi 
@@ -81,7 +81,7 @@ Merhaba arkadaşlar! Enerji dolu, idealleri olan pek çok öğrenciden farklı m
       4. Burada da Python ile ilgili [ücretsiz kaynaklar](http://justinbois.github.io/bootcamp/2019/resources.html) var.
    4. R için UC Irvine’den Dr. Mine Doğucu’nun kurduğu [bu web sitesi](https://www.learnr4free.com/) bir harika! Buradan pek çok farklı ve ücretsiz kaynağa ulaşabilirsiniz.
 12. Python öğrenmeye başlayınca çok zevkli gelmeye başladı ve boş vaktimi ona harcadım özellikle sağlık alanıyla ilgili verilerin incelendiği data setlerinde daha şevkle çalıştım. Bölümümü değiştirip değiştirmemekte kararsızım ama nörodejeneratif hastalıkların yapılarını da merak ettiğim için seviyorum. Sizce nasıl bir yol izlemeliyim? Erken tanı vs. gibi daha yazılım tarafında olmam mümkün müdür?
-   1. Erken tanı/yazılım sorusu için cevabim: Neden olmasın? Bununla ilgili daha çok tecrübe edinmek istersen Kaggle’daki yarışmalara katılmanı öneririm. Pek çok medikal veritabanını orada bulmak mümkün ve yarışmalara katılmak hem iyi bir tecrübe olur, hem de kendini geliştirmeni kolaylaştırır. 
+   1. Erken tanı/yazılım sorusu için cevabim: Neden olmasın? Bununla ilgili daha çok tecrübe edinmek istersen [Kaggle’daki](https://www.kaggle.com/) yarışmalara katılmanı öneririm. Pek çok medikal veritabanını orada bulmak mümkün ve yarışmalara katılmak hem iyi bir tecrübe olur, hem de kendini geliştirmeni kolaylaştırır. 
    2. Python öğrenmek için tavsiyelerim ile ilgili bkz. 13c. 
 
 ## MOTİVASYON MEKTUBU VE CV 
