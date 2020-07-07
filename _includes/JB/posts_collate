@@ -33,7 +33,7 @@ Usage:
     {% endif %}
     
     {% if post.text and post.link %}
-      <li><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo; {{ post.title}} [ <a href="{{ post.link_url }}">link</a> ] </li>
+      <li><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo; {{ post.title}} <a href="{{ post.link_url }}"> link </a> </li>
     {% elsif post.text %}
       <li><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo; {{ post.title }}</li>
     {% elsif post.link %}
