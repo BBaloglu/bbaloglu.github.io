@@ -66,7 +66,7 @@ Merhaba arkadaşlar! Enerji dolu, idealleri olan pek çok öğrenciden farklı m
 10. Ben ekoloji çalışmaya karar verdim ama sorun şu ki şu an biraz kaybolmuş durumdayım. Çünkü ne yapmam gerektiğini ya da nereden başlamam gerektiğini bilmiyorum. Şimdiden bir şeyler öğrenmem gerektiğini bir şekilde başlamam gerektiğini düşünüyorum. Bununla ilgili tavsiyelerine açığım. 
    1. Staj onemli. Bunun için bkz. 5a.
    2. Ortalamaya ilk etapta baktıklarını sanmam, elinde iyi düzenlenmiş bir CV'n olsun ama. 
-   3. Türkiye'de iken asistanlık falan yapabilirsin belki, kendini düşündüğün alanda kullanılan teknikler için geliştirebilirsin, ne bileyim bir programlama dili öğrenmek gibi eğer biyoenformatik bağlantılı bir şeyler yapmak istersen. 
+   3. Türkiye'de iken asistanlık falan yapabilirsin belki, kendini düşündüğün alanda kullanılan teknikler için geliştirebilirsin, ne bileyim bir programlama dili öğrenmek gibi eğer biyoenformatik bağlantılı bir şeyler yapmak istersen.
    4. Ne yapmak istediğini su anda bilmiyor olabilirsin ama tecrübelerinle şekillenecek. Kendini geliştirmeye bak, farklı lablara gir çık, saha da olsun dersen mesela KuzeyDoğa'da çalışmalara katıl. 
 
 ## KODLAMA VE YAZILIM 
