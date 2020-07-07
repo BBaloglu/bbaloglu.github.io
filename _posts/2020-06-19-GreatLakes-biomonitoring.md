@@ -2,7 +2,7 @@
 title: "Our scicomm piece on the U.S. EPA funded Great Lakes DNA barcoding project is online!"
 author: "Bilgenur Baloglu"
 layout: post
-categories: blog
+categories: news
 tags: [NGS, DNA barcoding, Great Lakes, biodiversity, policy, freshwater, biomonitoring]
 display_img: False
 link: true
