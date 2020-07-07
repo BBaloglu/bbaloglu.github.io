@@ -3,6 +3,6 @@ title: "I am invited to give talks at Istanbul University and Istanbul Technical
 author: "Bilgenur Baloglu"
 layout: post
 categories: news
-link: false
+text: true
 tags: [women scientists, talks, nanopore, conference, insects] 
 ---
