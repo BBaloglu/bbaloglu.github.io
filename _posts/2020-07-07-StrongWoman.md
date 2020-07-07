@@ -1,5 +1,5 @@
 ---
-title: "I am a strong woman who needs Nanopore Hotline to manage this website. 'Help me Obi Wan your my only hope!'"
+title: "I am a strong woman who needs Nanopore Hotline to manage this website."
 author: "Bilgenur Baloglu"
 layout: post
 categories: news
