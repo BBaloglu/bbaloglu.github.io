@@ -28,7 +28,7 @@ Merhaba arkadaşlar! Enerji dolu, idealleri olan pek çok öğrenciden farklı m
 
 + **Dil konusunda da tavsiyelere açığım.**
    * İngilizce'yi elinden geldiğince iyi öğren. Twitter güzel bir mecra, orada alandaki isimleri takip edersen hem dilini geliştirmek kolaylaşır, hem de çıkan yayınlar için ilk elden bilgi alırsın. 
-   * Dil için önerim bol bol yabancı kaynak/roman/makale okuman. Bir de tabii gittiğin okulda değişim programına katıl imkanın olursa. Ben Almanya'da TUM'de bir sene eğitim aldım, o sene baya önemliydi benim için Almanca öğrenmek açısından. 
+   * Dil için önerim bol bol yabancı kaynak/roman/makale okuman. Bir de tabii gittiğin okulda değişim programına katıl imkanın olursa. Ben Almanya'da [TUM'de](https://www.tum.de/en/) bir sene eğitim aldım, o sene baya önemliydi benim için Almanca öğrenmek açısından. 
    * Onun dışında BEST programına da bir göz at, ilgini çekerse üniversitendeki [BEST](https://www.best.eu.org/index.jsp) etkinliklerinin organizasyonunda görev al, bütün bunlar da dilini geliştirmeye katkı sağlayacaktır. 
 
 ## NOT ORTALAMASI 
