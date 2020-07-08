@@ -90,6 +90,8 @@ Merhaba arkadaşlar! Enerji dolu, idealleri olan pek çok öğrenciden farklı m
 
 ## MOTİVASYON MEKTUBU VE CV 
 
+   <img src="../assets/img/phdcomics.jpg" width="550px">
+
 + **Motivasyon mektubu yazarken nelere dikkat etmeliyim?**
    * Ben genelde genelden özele yazarım bu mektupları. 
    * Her başvurumda öncelikle internetten bir araştırma yaparım, okula, fakülteye, hocaların araştırma alanlarına bakarım. 
@@ -97,6 +99,7 @@ Merhaba arkadaşlar! Enerji dolu, idealleri olan pek çok öğrenciden farklı m
    * YL ve doktora için motivasyon mektuplarında kişisel hikayeler eklemeni tavsiye ederim. 
    * Önerim kopyala/yapıştır olmayan, hocaların akademik profiline göre şekillendirilmiş, üzerine düşünülmüş (araştırma projesi, hocanın konularıyla bağlantısı) bir mektup yazmak. 
    * CV ve motivasyon mektubu formatı için [Zety](https://zety.com/) severek kullandığım bir web sitesi, 2 hafta boyunca yaklaşık 3 USD’ye kullanılabiliyor. Eminim ücretsiz kaynaklar da vardır. 
+   * Aldığınız (ve almadığınız) cevaplar sizi yıldırmasın. Zamanla dayanıklılık kazanacaksınız. 😁   
 + **Başvuru yapmaktan korkuyorum, kendimi yetersiz hissediyorum. Bunu yenmem için tavsiyeleriniz var mı?**
    * Projelere, burslara, programlara başvurmaktan korkmayın. Elinizi korkak alıştırmayın. Ret aldığım şeyleri yazsam şu anki CV'min 10 katı edecek kadar malzeme var elimde. Çoğu akademisyen bu konuda eminim benimle aynı düşünceyi paylaşacaktır. 
    * Ret almak o kadar kötü bir şey değil. Emin olun, ret alsanız bile, hazırladığınız her dosya, CV, mektup, rapor daha sonraki başvurularınızda ve/ya projelerinizde isinize yarayacaktır.
