@@ -4,7 +4,7 @@ author: "Bilgenur Baloglu"
 layout: post
 categories: blog
 tags: [mentorship, Turkish, high school]
-image: pasadena-JPL-nextgoal.jpg
+image: pasadena_JPL_nextgoal.jpg
 
 ---
 
@@ -43,8 +43,10 @@ Merhaba arkadaşlar! Enerji dolu, idealleri olan pek çok öğrenciden farklı m
    * Ortalamaya ilk etapta baktıklarını sanmam, elinde iyi düzenlenmiş bir CV'n olsun ama. 
    * Üniversitende asistanlık yapabilirsin belki, kendini düşündüğün alanda kullanılan teknikler için geliştirebilirsin, mesela bir programlama dili öğrenmek gibi, eğer biyoenformatik bağlantılı bir şeyler yapmak istersen. 
    * Ben Almanya'da 3 staj ve TR'de bir staj yaptım lisansta. Almanya'daki stajların ikisini orada Erasmus yaparken, birini TR'ye döndükten sonra ayarlamıştım. Bir sürü hocaya bir sürü e-posta attığımı hatırlıyorum, olumlu dönenlere de ayrıca sormuştum, konaklama ya da başka olanaklar sağlayabilir mi diye. Bu da onemli: Ne gibi imkanlar sağlayabileceklerini (konaklama, burs, vs.) sorabilirsin hocaya, bu konuda çekinme. En kötü cevap hayır olacaktır. 😊
-   
+      
 ## EKOLOJİ İÇİN NEREDEN BAŞLAYAYIM? 
+
+   <img src="../img/kuzey_doga_ekoloji.jpg" width="550px">
 
 + **Ekoloji alanında uzmanlaşmak istiyorum o yüzden size sormak istedim, herhangi bir tavsiyeniz olur mu? Ayrıca bir hocayla görüştüğümde ekolog olmak istiyorsan biyoloji bölümünde okuman gerekiyor tarzında şeyler duydum, bu doğru mu?**
    * Stajlara ağırlık vermeni, arazi tecrübesi kazanmanı öneririm. KuzeyDoğa Derneği'nin çalışmalarına göz atabilir, onlarla gönüllü çalışmalara katılabilirsin. İTÜ’den mezun olduktan sonra [KuzeyDoga Derneği'nde](https://www.kuzeydoga.net/) iki ay kadar gönüllü çalıştım, orada da Cagan Sekercioglu ve Sean Anderson'un tecrübelerinden baya yararlandım, dernek benim için oldukça verimli oldu, hem Türkiye'deki diğer derneklerden kişilerle kurduğum bağlantılar anlamında, hem [Bilim.org'a yazmaya o dönemde başlamam dolayısıyla](https://www.bilim.org/kuyucuk-golu-sulak-alan-restorasyon-projesi/) hem de ne yapmak istediğimi kafamda netleştirdiği için. 
@@ -58,6 +60,8 @@ Merhaba arkadaşlar! Enerji dolu, idealleri olan pek çok öğrenciden farklı m
    * Ne yapmak istediğini su anda bilmiyor olabilirsin ama tecrübelerinle şekillenecek. Kendini geliştirmeye bak, farklı lablara gir çık, saha da olsun dersen mesela KuzeyDoğa'da çalışmalara katıl. 
 
 ## KODLAMA VE YAZILIM 
+
+   <img src="../img/darkside_datascience.jpg" width="550px">
 
 + **Lisansın sonlarına geldiğim için acaba ne yapmalıyım, kendimi nasıl geliştirmeliyim, hangi alanda ilerlemeliyim gibi sorular döngüsünde buldum kendimi. Bu yollardan hem de aynı okuldan geçmiş biri olarak, kendimi geliştirebilmem için nasıl tavsiyeler verebilirsiniz?**
    * Biyoinformatik alanında kendini geliştirmeni şiddetle tavsiye ederim, ben hâlâ online dersler alıyorum. 
