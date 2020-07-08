@@ -67,7 +67,7 @@ Merhaba arkadaşlar! Enerji dolu, idealleri olan pek çok öğrenciden farklı m
    * Biyoinformatik alanında kendini geliştirmeni şiddetle tavsiye ederim, ben hâlâ online dersler alıyorum. 
    * Devir sadece biyolojik bilgi üretme devri değil, analizini yapabilmek de onemli. Sadece öğrenmek değil öğretmek de bu süreçte oldukça faydalı olacaktır. Mesela ben lisanstayken EMBL Heidelberg'de Peer Bork’un grubunda bir staj yaptım, döndükten sonra lisanstan bir arkadaşım ile ITU MBG'de haftalık biyoinformatik çalıştayı başlattık, önce kendimiz çalışıp sonra da interaktif bir şekilde belli biyoenformatik araç ve veritabanlarını (BLAST, ENSEMBL, PDB gibi) öğretiyorduk. Mesela sen de bir çalıştayın liderliğini yapabilirsin. Öğretmek veya anlatmak için öğrenmek bana kalırsa en etkili öğrenme yollarından birisi.
    * Önerebileceğim birkaç Python dersi 
-      * Udemy’de dönem dönem ücretsiz veya indirimli dersler oluyor.
+      * [Udemy’de](https://www.udemy.com/topic/python/) dönem dönem ücretsiz veya indirimli dersler oluyor.
       * Bildiğim kadarıyla codeacademy'deki [bu](https://www.codecademy.com/learn/learn-python) da ücretsiz bir ders. 
       * Caltech’teki bir bootcamp’ten daha üst düzey [bir ders](http://justinbois.github.io/bootcamp/2019/schedule.html). Ben oldukça faydalı buldum. 
       * Burada da Python ile ilgili [ücretsiz kaynaklar](http://justinbois.github.io/bootcamp/2019/resources.html) var.
