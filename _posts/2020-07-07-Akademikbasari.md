@@ -3,8 +3,9 @@ title: "LİSE VE ÜNİVERSİTE ÖĞRENCİLERİNE AKADEMİK BAŞARI İÇİN TAVS�
 author: "Bilgenur Baloglu"
 layout: post
 categories: blog
-image: pasadena-JPL-nextgoal.jpg
 tags: [mentorship, Turkish, high school]
+image: pasadena-JPL-nextgoal.jpg
+
 ---
 
 Merhaba arkadaşlar! Enerji dolu, idealleri olan pek çok öğrenciden farklı mecralar üzerinden e-posta aldım. Bir kısmınıza geri dönüş yaptım, cevap yazamadıklarım da çok olmuştur. Bu nedenle bu yazıyı yazıp sorularınıza toplu cevap verme ihtiyacı duydum. Soruları biraz daha genel hale getirip tek tek cevapladım. Farkedeceğiniz üzere aynı cevapları farklı sorular için verdiğim oldu. İlk etapta mentörlük yaptığım [StarDust Squad](https://www.instagram.com/stardustsquad_/?igshid=7lz5us6syt4i) öğrencileri için yazmayı düşünürken daha fazla kişinin faydalanabileceğini düşündüğüm için buradan paylaşmaya karar verdim. Umarım işinize yarar ve işine yarayacağını düşündüğünüz kişilerle paylaşırsınız. 
