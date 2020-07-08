@@ -46,7 +46,7 @@ Merhaba arkadaşlar! Enerji dolu, idealleri olan pek çok öğrenciden farklı m
       
 ## EKOLOJİ İÇİN NEREDEN BAŞLAYAYIM? 
 
-   <img src="../img/kuzey_doga_ekoloji.jpg" width="550px">
+   <img src="../assets/img/kuzey_doga_ekoloji.jpg" width="550px">
 
 + **Ekoloji alanında uzmanlaşmak istiyorum o yüzden size sormak istedim, herhangi bir tavsiyeniz olur mu? Ayrıca bir hocayla görüştüğümde ekolog olmak istiyorsan biyoloji bölümünde okuman gerekiyor tarzında şeyler duydum, bu doğru mu?**
    * Stajlara ağırlık vermeni, arazi tecrübesi kazanmanı öneririm. KuzeyDoğa Derneği'nin çalışmalarına göz atabilir, onlarla gönüllü çalışmalara katılabilirsin. İTÜ’den mezun olduktan sonra [KuzeyDoga Derneği'nde](https://www.kuzeydoga.net/) iki ay kadar gönüllü çalıştım, orada da Cagan Sekercioglu ve Sean Anderson'un tecrübelerinden baya yararlandım, dernek benim için oldukça verimli oldu, hem Türkiye'deki diğer derneklerden kişilerle kurduğum bağlantılar anlamında, hem [Bilim.org'a yazmaya o dönemde başlamam dolayısıyla](https://www.bilim.org/kuyucuk-golu-sulak-alan-restorasyon-projesi/) hem de ne yapmak istediğimi kafamda netleştirdiği için. 
@@ -61,7 +61,7 @@ Merhaba arkadaşlar! Enerji dolu, idealleri olan pek çok öğrenciden farklı m
 
 ## KODLAMA VE YAZILIM 
 
-   <img src="../img/darkside_datascience.jpg" width="550px">
+   <img src="../assets/img/darkside_datascience.jpg" width="550px">
 
 + **Lisansın sonlarına geldiğim için acaba ne yapmalıyım, kendimi nasıl geliştirmeliyim, hangi alanda ilerlemeliyim gibi sorular döngüsünde buldum kendimi. Bu yollardan hem de aynı okuldan geçmiş biri olarak, kendimi geliştirebilmem için nasıl tavsiyeler verebilirsiniz?**
    * Biyoinformatik alanında kendini geliştirmeni şiddetle tavsiye ederim, ben hâlâ online dersler alıyorum. 
