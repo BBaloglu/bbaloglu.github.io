@@ -85,7 +85,7 @@ Merhaba arkadaşlar! Enerji dolu, idealleri olan pek çok öğrenciden farklı m
    * Bunun cevabının ucu biraz açık. Gideceğin ülkeye göre kriterler değişiyor. Mesela ABD’de bazı okullar GRE ve Toefl sonuçlarına bakıyor. Singapur için GRE şart değil.
    * Stajlarda edindiğin tecrübe ve alabilirsen iyi referans mektupları işine yarayacaktır. 
    * Mümkünse başvuruların için hazırladığın materyalleri (CV, motivasyon mektubu) ana dili İngilizce olan bir kişiye gösterip fikrini al.
-+ **Çalıştığın alanı ve yüksek lisans yaptığın üniversiteni hangi kriterlere göre seçtin?**
++ **Çalıştığın alanı ve doktora yaptığın üniversiteni hangi kriterlere göre seçtin?**
    * Bununla ilgili [Bilim Kadinlari’na verdiğim cevabıma](https://twitter.com/bilimkadinlari/status/1219530380849680384) bakabilirsin. 
 
 ## MOTİVASYON MEKTUBU VE CV 
