@@ -71,6 +71,8 @@ Merhaba arkadaşlar! Enerji dolu, idealleri olan pek çok öğrenciden farklı m
       * Bildiğim kadarıyla codeacademy'deki [bu](https://www.codecademy.com/learn/learn-python) da ücretsiz bir ders. 
       * Caltech’teki bir bootcamp’ten daha üst düzey [bir ders](http://justinbois.github.io/bootcamp/2019/schedule.html). Ben oldukça faydalı buldum. 
       * Burada da Python ile ilgili [ücretsiz kaynaklar](http://justinbois.github.io/bootcamp/2019/resources.html) var.
+      * Bunlar beni kesmez, ben makine ögrenmesi (ML) de öğrenmek istiyorum dersen, Jovian.ml'in yeni bitirdiğim [bu PyTorch dersini](https://jovian.ml/forum/c/pytorch-zero-to-gans) tavsiye ederim. Ücretsiz ve müthiş bir imkan!
+      * Jovian.ml [yeni bir ders](https://jovian.ml/learn/data-analysis-with-python-zero-to-pandas) daha açıyor. Python kullanarak veri analizi ve veri görselleştirme ile ilgilenenler için bulunmaz bir nimet. Bu da ücretsiz.
    * R için UC Irvine’den Dr. Mine Doğucu’nun kurduğu [bu web sitesi](https://www.learnr4free.com/) bir harika! Buradan pek çok farklı ve ücretsiz kaynağa ulaşabilirsiniz.
 + **Python öğrenmeye başlayınca çok zevkli gelmeye başladı ve boş vaktimi ona harcadım özellikle sağlık alanıyla ilgili verilerin incelendiği data setlerinde daha şevkle çalıştım. Sizce nasıl bir yol izlemeliyim? Erken tanı vs. gibi daha yazılım tarafında olmam mümkün müdür?**
    * Erken tanı/yazılım sorusu için cevabim: Neden olmasın? Bununla ilgili daha çok tecrübe edinmek istersen [Kaggle’daki](https://www.kaggle.com/) yarışmalara katılmanı öneririm. Pek çok medikal veritabanını orada bulmak mümkün ve yarışmalara katılmak hem iyi bir tecrübe olur, hem de kendini geliştirmeni kolaylaştırır. 
