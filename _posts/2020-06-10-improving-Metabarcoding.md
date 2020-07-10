@@ -11,6 +11,8 @@ display_img: True
 <hr style="margin-left: auto; margin-right: auto; width: 60%; color: #f2f2f2">
 
 ## How can we improve metabarcoding workflow? By validating primers and skipping size sorting
+[\[**Talk**\]](https://www.youtube.com/watch?v=naA9RpGuEGM&feature=youtu.be)
+
 
 Global freshwater biodiversity is declining more rapidly than the diversity of many stressed terrestrial ecosystems, e.g., 1–8% species loss per decade.
 Such loss of freshwater biodiversity affects food webs, nutrient cycling, climate, air quality, and water supply.The lack of efficient and rapid assessment tools 
