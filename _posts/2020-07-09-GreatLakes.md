@@ -1,5 +1,5 @@
 ---
-title: "Our Great Lakes article is featured on the official website of the Unites States government!"
+title: "Our Great Lakes article is featured on the official website of the United States government!"
 author: "Bilgenur Baloglu"
 layout: post
 categories: news
