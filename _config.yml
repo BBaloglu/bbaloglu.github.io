@@ -14,8 +14,9 @@ sass:
   style: :nested
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		     "Bilgenur Baloglu"
-description:	     "© 2020 Bilgenur Baloglu. A hub for hosting my work. Powered by Jekyll, built off of the gchure template"
+title:		     "© 2020 Bilgenur Baloglu"
+description:	     "A hub for hosting my work. Powered by Jekyll, built off of the gchure template"
+author:               "Bilgenur Baloglu"
 
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
