@@ -16,7 +16,7 @@ sass:
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		     "Bilgenur Baloglu, PhD"
 description:	     "A hub for hosting my work. Powered"
-author:               "Jekyll, built off of the gchure template"
+author:               "Jekyll, built off of the gchure template."
 
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
