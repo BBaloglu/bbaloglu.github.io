@@ -3,6 +3,8 @@ title: "My research in Canada got featured on a Turkish language newspaper (Cana
 author: "Bilgenur Baloglu"
 layout: post
 categories: news
+image: BB-canadaturk.png
+display_img: True
 tags: [women scientists, bilim kadinlari, science communication, interview]
 ---
 
