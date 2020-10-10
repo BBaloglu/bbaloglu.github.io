@@ -14243,7 +14243,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#loading libraries</span>
@@ -14307,9 +14307,9 @@ a.anchor-link {
 
 
 
-<div id="c2bc919f-d939-4b1f-b4fd-fae5ec978bc7" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<div id="ffbdee2e-c522-4385-a54c-d619c54e2278" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
 <script type="text/javascript">
-var element = document.getElementById('c2bc919f-d939-4b1f-b4fd-fae5ec978bc7');
+var element = document.getElementById('ffbdee2e-c522-4385-a54c-d619c54e2278');
 
 (function(root) {
   function now() {
@@ -15473,18 +15473,32 @@ haplotypes after:  33
 <h3 id="Getting-pairwise-distance-information">Getting pairwise distance information<a class="anchor-link" href="#Getting-pairwise-distance-information">&#182;</a></h3><p>In the code snippet below, pseudo reference sequences, cluster center sequences of the pseudo reference, and the mock50 reference sequences are loaded and concatenated. Pairwise alignments are computed via <code>run_minimap2()</code> and saved to a csv file called <code>pseudo_pw.csv.gz</code>.</p>
 
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">compute_pw</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
+    <span class="c1"># note that -D in config remove entries for diagonal alignments.</span>
+    <span class="n">config</span> <span class="o">=</span> <span class="s1">&#39;-k15 -w10 -p 0.9 -D --dual=no&#39;</span>
+    <span class="n">df_pw</span> <span class="o">=</span> <span class="n">bpy</span><span class="o">.</span><span class="n">run_minimap2</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">df</span><span class="p">,</span> <span class="n">config</span><span class="o">=</span><span class="n">config</span><span class="p">,</span> <span class="n">cleanup</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="c1"># get the best alignment</span>
+    <span class="k">return</span> <span class="n">bpy</span><span class="o">.</span><span class="n">get_best</span><span class="p">(</span><span class="n">df_pw</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;query_id&#39;</span><span class="p">,</span><span class="s1">&#39;database_id&#39;</span><span class="p">],</span> <span class="n">metric</span><span class="o">=</span><span class="s1">&#39;AS&#39;</span><span class="p">,</span> <span class="n">stat</span><span class="o">=</span><span class="s1">&#39;idxmax&#39;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">compute_pw</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
-    <span class="c1"># note that -D in config remove entries for diagonal alignments. You will need to add this back for similarity measures</span>
-    <span class="n">df_pw</span> <span class="o">=</span> <span class="n">bpy</span><span class="o">.</span><span class="n">run_minimap2</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">df</span><span class="p">,</span> <span class="n">config</span><span class="o">=</span><span class="s1">&#39;-k15 -w10 -p 0.9 -D --dual=no&#39;</span><span class="p">,</span> <span class="n">cleanup</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">bpy</span><span class="o">.</span><span class="n">get_best</span><span class="p">(</span><span class="n">df_pw</span><span class="p">,[</span><span class="s1">&#39;query_id&#39;</span><span class="p">,</span><span class="s1">&#39;database_id&#39;</span><span class="p">],</span><span class="n">metric</span><span class="o">=</span><span class="s1">&#39;AS&#39;</span><span class="p">,</span> <span class="n">stat</span><span class="o">=</span><span class="s1">&#39;idxmax&#39;</span><span class="p">)</span>  <span class="c1"># get the best alignment</span>
-
-<span class="c1"># load data and concatenate dataframes</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># load data and concatenate dataframes</span>
 <span class="n">df_prf</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;pseudo_ref.csv.gz&#39;</span><span class="p">)</span>
 <span class="n">df_cl</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;pseudo_clst.csv.gz&#39;</span><span class="p">)</span>
 <span class="n">df_ref</span> <span class="o">=</span> <span class="n">bpy</span><span class="o">.</span><span class="n">read_fasta</span><span class="p">(</span><span class="s1">&#39;ref_db.fa&#39;</span><span class="p">)</span>
@@ -15510,7 +15524,7 @@ haplotypes after:  33
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>pid[89541] 2020-10-09 17:11:23.328 INFO: Making directory ./minimap2/
+<pre>pid[90000] 2020-10-09 20:11:03.540 INFO: Making directory ./minimap2/
 </pre>
 </div>
 </div>
@@ -15526,10 +15540,10 @@ haplotypes after:  33
 <p>The code snippet below shows how to apply TSNE to the pseudo reference and obtain a 2D representation of the relationships between sequences. HDBSCAN is used to flag clusters in 2D space. Data is returned as a pandas dataframe and saved to <code>pseudo_tnse.csv.gz</code>.</p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_cluster</span><span class="p">(</span><span class="n">dist</span><span class="p">,</span> <span class="n">metric</span><span class="o">=</span><span class="s1">&#39;precomputed&#39;</span><span class="p">):</span>
@@ -15551,8 +15565,20 @@ haplotypes after:  33
         <span class="n">m</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span><span class="o">-</span><span class="n">m</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="n">i</span><span class="p">]</span>
         <span class="n">m</span><span class="o">.</span><span class="n">iat</span><span class="p">[</span><span class="n">i</span><span class="p">,</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1"># set diagonal values to zero</span>
     <span class="k">return</span> <span class="n">m</span>
+</pre></div>
 
-<span class="c1"># load pairwise data</span>
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># load pairwise data</span>
 <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;pseudo_pw.csv.gz&#39;</span><span class="p">)</span>
 <span class="c1"># get the distance matrix</span>
 <span class="n">m</span> <span class="o">=</span> <span class="n">get_dist_matrix</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
@@ -15578,11 +15604,11 @@ haplotypes after:  33
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>pid[89541] 2020-10-09 17:11:35.841 INFO: running sklearn tsne with n_comp = 2
-pid[89541] 2020-10-09 17:12:47.658 INFO: Running HDBSCAN
-pid[89541] 2020-10-09 17:12:47.875 INFO: getting and ordering the results
-pid[89541] 2020-10-09 17:12:47.898 INFO: number of clusters = 34
-pid[89541] 2020-10-09 17:12:47.898 INFO: unclustered = 2627
+<pre>pid[90000] 2020-10-09 22:21:55.635 INFO: running sklearn tsne with n_comp = 2
+pid[90000] 2020-10-09 22:23:16.108 INFO: Running HDBSCAN
+pid[90000] 2020-10-09 22:23:16.305 INFO: getting and ordering the results
+pid[90000] 2020-10-09 22:23:16.350 INFO: number of clusters = 37
+pid[90000] 2020-10-09 22:23:16.352 INFO: unclustered = 2799
 </pre>
 </div>
 </div>
@@ -15600,7 +15626,7 @@ pid[89541] 2020-10-09 17:12:47.898 INFO: unclustered = 2627
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># load sequence data</span>
@@ -15659,10 +15685,32 @@ pid[89541] 2020-10-09 17:12:47.898 INFO: unclustered = 2627
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>pid[89541] 2020-10-09 17:12:48.155 INFO: Making directory ./minimap2/
-pid[89541] 2020-10-09 17:12:52.683 INFO: Making directory ./minimap2/
-</pre>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">FileNotFoundError</span>                         Traceback (most recent call last)
+<span class="ansi-green-fg">&lt;ipython-input-13-fd466c6a4335&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">     10</span> clst<span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#39;clst_id&#39;</span><span class="ansi-blue-fg">]</span> <span class="ansi-blue-fg">=</span> clst<span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#39;id&#39;</span><span class="ansi-blue-fg">]</span>
+<span class="ansi-green-intense-fg ansi-bold">     11</span> <span class="ansi-red-fg"># align reference database to pseudo reference and pseudo reference clusters to pseudo reference</span>
+<span class="ansi-green-fg">---&gt; 12</span><span class="ansi-red-fg"> </span>A <span class="ansi-blue-fg">=</span> bpy<span class="ansi-blue-fg">.</span>run_minimap2<span class="ansi-blue-fg">(</span>prf<span class="ansi-blue-fg">,</span> ref<span class="ansi-blue-fg">,</span> config<span class="ansi-blue-fg">=</span><span class="ansi-blue-fg">&#39;-k8 -w1&#39;</span><span class="ansi-blue-fg">,</span> cleanup<span class="ansi-blue-fg">=</span><span class="ansi-green-fg">True</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">.</span>rename<span class="ansi-blue-fg">(</span>columns<span class="ansi-blue-fg">=</span><span class="ansi-blue-fg">{</span><span class="ansi-blue-fg">&#39;query_id&#39;</span><span class="ansi-blue-fg">:</span><span class="ansi-blue-fg">&#39;id&#39;</span><span class="ansi-blue-fg">}</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">     13</span> A <span class="ansi-blue-fg">=</span> bpy<span class="ansi-blue-fg">.</span>get_best<span class="ansi-blue-fg">(</span>A<span class="ansi-blue-fg">,</span><span class="ansi-blue-fg">[</span><span class="ansi-blue-fg">&#39;id&#39;</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">,</span>metric<span class="ansi-blue-fg">=</span><span class="ansi-blue-fg">&#39;match_score&#39;</span><span class="ansi-blue-fg">,</span>stat<span class="ansi-blue-fg">=</span><span class="ansi-blue-fg">&#39;idxmax&#39;</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">     14</span> B <span class="ansi-blue-fg">=</span> bpy<span class="ansi-blue-fg">.</span>run_minimap2<span class="ansi-blue-fg">(</span>prf<span class="ansi-blue-fg">,</span> clst<span class="ansi-blue-fg">,</span> config<span class="ansi-blue-fg">=</span><span class="ansi-blue-fg">&#39;-k8 -w1&#39;</span><span class="ansi-blue-fg">,</span> cleanup<span class="ansi-blue-fg">=</span><span class="ansi-green-fg">True</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">.</span>rename<span class="ansi-blue-fg">(</span>columns<span class="ansi-blue-fg">=</span><span class="ansi-blue-fg">{</span><span class="ansi-blue-fg">&#39;query_id&#39;</span><span class="ansi-blue-fg">:</span><span class="ansi-blue-fg">&#39;id&#39;</span><span class="ansi-blue-fg">}</span><span class="ansi-blue-fg">)</span>
+
+<span class="ansi-green-fg">~/Desktop/ashure/demo/bilge_pype.py</span> in <span class="ansi-cyan-fg">run_minimap2</span><span class="ansi-blue-fg">(query, database, workspace, config, cigar, build_index, use_index, cleanup)</span>
+<span class="ansi-green-intense-fg ansi-bold">    667</span> 
+<span class="ansi-green-intense-fg ansi-bold">    668</span>     <span class="ansi-red-fg"># extract the PAF file information</span>
+<span class="ansi-green-fg">--&gt; 669</span><span class="ansi-red-fg">     </span>data <span class="ansi-blue-fg">=</span> parse_PAF<span class="ansi-blue-fg">(</span>outfile<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    670</span> 
+<span class="ansi-green-intense-fg ansi-bold">    671</span>     <span class="ansi-red-fg"># Format the fields to integer</span>
+
+<span class="ansi-green-fg">~/Desktop/ashure/demo/bilge_pype.py</span> in <span class="ansi-cyan-fg">parse_PAF</span><span class="ansi-blue-fg">(fname)</span>
+<span class="ansi-green-intense-fg ansi-bold">    565</span>     This function parses the information <span class="ansi-green-fg">from</span> a PAF file <span class="ansi-green-fg">and</span> returns a dataframe
+<span class="ansi-green-intense-fg ansi-bold">    566</span>     &#39;&#39;&#39;
+<span class="ansi-green-fg">--&gt; 567</span><span class="ansi-red-fg">     </span><span class="ansi-green-fg">with</span> open<span class="ansi-blue-fg">(</span>fname<span class="ansi-blue-fg">,</span><span class="ansi-blue-fg">&#39;r&#39;</span><span class="ansi-blue-fg">)</span> <span class="ansi-green-fg">as</span> f<span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">    568</span>         text <span class="ansi-blue-fg">=</span> f<span class="ansi-blue-fg">.</span>read<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">.</span>split<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#39;\n&#39;</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    569</span> 
+
+<span class="ansi-red-fg">FileNotFoundError</span>: [Errno 2] No such file or directory: &#39;./minimap2/results.paf&#39;</pre>
 </div>
 </div>
 
@@ -15670,10 +15718,10 @@ pid[89541] 2020-10-09 17:12:52.683 INFO: Making directory ./minimap2/
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">TOOLTIPS</span> <span class="o">=</span> <span class="p">[(</span><span class="s1">&#39;id&#39;</span><span class="p">,</span><span class="s1">&#39;@id&#39;</span><span class="p">),</span>
@@ -15708,29 +15756,6 @@ pid[89541] 2020-10-09 17:12:52.683 INFO: Making directory ./minimap2/
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&#39;/Users/zchen/Desktop/ashure/docs/pages/ashure/pseudo_tsne_1.html&#39;</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
@@ -15756,10 +15781,10 @@ pid[89541] 2020-10-09 17:12:52.683 INFO: Making directory ./minimap2/
 <p>The code snippet below colorizes the sequences based on alignment against the reference.</p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">TOOLTIPS</span> <span class="o">=</span> <span class="p">[(</span><span class="s1">&#39;id&#39;</span><span class="p">,</span><span class="s1">&#39;@id&#39;</span><span class="p">),</span>
@@ -15795,29 +15820,6 @@ pid[89541] 2020-10-09 17:12:52.683 INFO: Making directory ./minimap2/
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&#39;/Users/zchen/Desktop/ashure/docs/pages/ashure/pseudo_tsne_2.html&#39;</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
@@ -15839,7 +15841,7 @@ pid[89541] 2020-10-09 17:12:52.683 INFO: Making directory ./minimap2/
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">clst</span><span class="p">[</span><span class="n">clst</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;cluster10&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
@@ -15858,7 +15860,7 @@ pid[89541] 2020-10-09 17:12:52.683 INFO: Making directory ./minimap2/
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
 
 
 
@@ -15878,7 +15880,7 @@ pid[89541] 2020-10-09 17:12:52.683 INFO: Making directory ./minimap2/
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">c</span> <span class="o">=</span> <span class="p">[(</span><span class="s1">&#39;1a27a9&#39;</span> <span class="ow">in</span> <span class="n">rid</span><span class="p">)</span> <span class="k">for</span> <span class="n">rid</span> <span class="ow">in</span> <span class="n">prf</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">]]</span>
@@ -15898,7 +15900,7 @@ pid[89541] 2020-10-09 17:12:52.683 INFO: Making directory ./minimap2/
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
 
 
 
@@ -15907,8 +15909,7 @@ pid[89541] 2020-10-09 17:12:52.683 INFO: Making directory ./minimap2/
 <pre>array([[&#39;1a27a932-c851-4f13-9853-c55a56e50ba3_rs207_1064&#39;,
         &#39;TGGCTCGGGGTGTCTCCAATGATGGAGATTACCAAACTTCAGGTGACCAAAAACCAAAACAGTTATATAATACGGACACCTCCGATTGAGGGGTCAAAAATGAAGTATTTAAATTTCTATCAGTTAACAACCAGTAATAGCAACGCCAGCCAATACAGTAAAACTTGCATTAATAATAAAAAAAGCTGTACTAAACACTGACCATACAAATAAAGGTAATTTATGGAAAGTTAATCCCGGTGCTCGGCATTATAGACAGTAATAAAAAAATTCAATTGAACCTAATAATGCATTTTAGAAAATAGCCAAATGTGTAAACCAAAAATAGCGCTAAATCAACAGAAGGTCCTGAATGCGCTTGAACACTAGATAATGGTGGATATACAGTCCAACCTGTACCTGCAATCTCAGATTCTACACAGTTGATGAAACTAATAAAAAGTGATGGAGGTAATAACCAAAACTAATATTATTCATTCTAGGAAAAGCCATCTGGAGCACCTTAACATTAAAGGAATAAACCAATTACCAAAACCCCAATTAAAATAGGCATAACCATAAAAAAATATCATAATAAAAAAAGCATGAGCAGTTACTACAACATTATATAATTGATGATTTCCCCATAAAAAATTTGATTTCCAGGTTGTGCTAATTCCATACGGATTAATACAGATACGTAGTACCCACTACACCTCGAAAAAAGCAATCTAATGTTAGGTGCTAATTCCATACGGATTAATACAGATAATGTAGTACCTACTACACCCGAAAAAGCACCAAAATCATATATAGAGTACCGATATCTTTATGGATTTGTTGACCGTTCACCCGCGTAACTACCAAGTAATACCACG&#39;,
         &#34;-13---(,01*12&#39;%&#39;*,4+3433521+.)&amp;$$&amp;0/&#39;(*&#39;%&#39;(%)64-+587)0-,32)&amp;%#$&#39;&amp;)(&#39;.*(0%3*)&amp;$%&#39;%)(%&amp;&amp;&amp;$%%*-/(*)778*4363/-/68255,/3,&amp;%&#39;&amp;&#39;&#39;+(.&#39;.##&#39;$&amp;)&#39;&amp;1*%&amp;$#&amp;*+,,&amp;)+)+*+&#39;%$%%$(300*+&#39;%$,%&#39;(.%(4(/6782/,--*)%)$$-7/**-(-44/1)*)12)&#39;)*&amp;%&#39;&#39;)(++(&amp;%&#39;)&#39;62&amp;(+),(,*./0.&amp;%$%#$%++0,22/0&amp;-&amp;%&#39;,&amp;+783+&amp;())%&amp;+(*-131(*1()*.&#39;&amp;%((323-/,0.*$%$$&amp;+0+&#39;&#39;())47/4,,885*-(&amp;&amp;(($&#39;..&amp;*)-%&amp;*/635675067111***+001425.,*.**,.*2.-1-42001-132-/412)+,+),&#39;&amp;&amp;$)+%&amp;&amp;)-.+-()*)&amp;+%))$+-21038122631,32,+&amp;&#39;(2224/2++5+.7,-&#39;-731),-/)*+5-632584+**2*252*()$&#39;&amp;$$%0(+*/$&#39;(.20.,/,)/1(,74078.1-,+*-.-+,60+.76-/,.,,)(&amp;&#39;&amp;.-/..34+21/*4885(-+/,,+*,/+,85-(%),,6.10/,.)(%/$&#39;,*31*424330.1.0/43/**-,&#39;*/.--*.68850&amp;1+*&#39;*+++0335621..*,*4+2321/00312)-(-(,57,,*/(-+4/-,/0((%&amp;&amp;#&amp;$&#39;$%**266,*$$&amp;/(*,5.0/1+),+(((&amp;(./+2+4+**/)2+4+/+046-+,1-+*(*(%*)+/0/15(&#39;&#39;,,/*466,*++.-3880-42235555220-01(53301()-(&#39;(+-.27300.427342/+*+41/./-0)(&#39;,&amp;%&#39;.&amp;&amp;(*&#39;*-+*(&amp;&#34;,
-        &#39;samples&#39;, &#39;HAP39&#39;, 0.6971326164874552, &#39;cluster2&#39;,
-        0.8320090805902384]], dtype=object)</pre>
+        &#39;samples&#39;]], dtype=object)</pre>
 </div>
 
 </div>
