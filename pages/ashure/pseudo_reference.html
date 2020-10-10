@@ -14243,7 +14243,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#loading libraries</span>
@@ -14307,9 +14307,9 @@ a.anchor-link {
 
 
 
-<div id="11baebe7-c27a-4ee5-b0a5-7c4166a9d0c3" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
+<div id="fcb3c8d7-e101-4a0a-bda1-f4b490e3bf1d" class="jp-RenderedJavaScript jp-OutputArea-output " data-mime-type="application/javascript">
 <script type="text/javascript">
-var element = document.getElementById('11baebe7-c27a-4ee5-b0a5-7c4166a9d0c3');
+var element = document.getElementById('fcb3c8d7-e101-4a0a-bda1-f4b490e3bf1d');
 
 (function(root) {
   function now() {
@@ -15629,7 +15629,7 @@ pid[90394] 2020-10-09 22:39:09.894 INFO: unclustered = 7
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># load sequence data</span>
@@ -15690,8 +15690,8 @@ pid[90394] 2020-10-09 22:39:09.894 INFO: unclustered = 7
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>pid[90394] 2020-10-09 22:39:10.151 INFO: Making directory ./minimap2/
-pid[90394] 2020-10-09 22:39:14.722 INFO: Making directory ./minimap2/
+<pre>pid[90463] 2020-10-09 22:44:30.125 INFO: Making directory ./minimap2/
+pid[90463] 2020-10-09 22:44:34.855 INFO: Making directory ./minimap2/
 </pre>
 </div>
 </div>
@@ -15703,7 +15703,7 @@ pid[90394] 2020-10-09 22:39:14.722 INFO: Making directory ./minimap2/
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">TOOLTIPS</span> <span class="o">=</span> <span class="p">[(</span><span class="s1">&#39;id&#39;</span><span class="p">,</span><span class="s1">&#39;@id&#39;</span><span class="p">),</span>
@@ -15758,7 +15758,7 @@ pid[90394] 2020-10-09 22:39:14.722 INFO: Making directory ./minimap2/
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
 
 
 
@@ -15789,19 +15789,13 @@ pid[90394] 2020-10-09 22:39:14.722 INFO: Making directory ./minimap2/
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>The above code snippet colorizes each sequence by the de novo cluster obtained from <code>ashure.py</code>. Blue diamonds denote the position of reference haplotype sequences. Red squares denote the position of de novo cluster centers from <code>ashure.py</code></p>
-<p>The following code snippet colorizes by the match against the reference sequences.</p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>The code snippet below colorizes the sequences based on alignment against the reference.</p>
+<p>The following code snippet colorizes sequences by percent match to the haplotype sequence.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">TOOLTIPS</span> <span class="o">=</span> <span class="p">[(</span><span class="s1">&#39;id&#39;</span><span class="p">,</span><span class="s1">&#39;@id&#39;</span><span class="p">),</span>
@@ -15815,7 +15809,7 @@ pid[90394] 2020-10-09 22:39:14.722 INFO: Making directory ./minimap2/
 
 <span class="c1"># plot samples colored by alignment score</span>
 <span class="n">d</span> <span class="o">=</span> <span class="n">tsne</span><span class="p">[</span><span class="n">tsne</span><span class="p">[</span><span class="s1">&#39;source&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;samples&#39;</span><span class="p">]</span>
-<span class="n">mapper</span> <span class="o">=</span> <span class="n">bokeh</span><span class="o">.</span><span class="n">transform</span><span class="o">.</span><span class="n">linear_cmap</span><span class="p">(</span><span class="n">field_name</span><span class="o">=</span><span class="s1">&#39;ref_match&#39;</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="n">bokeh</span><span class="o">.</span><span class="n">palettes</span><span class="o">.</span><span class="n">Spectral11</span><span class="p">,</span> <span class="n">low</span><span class="o">=</span><span class="mf">0.8</span><span class="p">,</span> <span class="n">high</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">mapper</span> <span class="o">=</span> <span class="n">bokeh</span><span class="o">.</span><span class="n">transform</span><span class="o">.</span><span class="n">linear_cmap</span><span class="p">(</span><span class="n">field_name</span><span class="o">=</span><span class="s1">&#39;ref_match&#39;</span><span class="p">,</span> <span class="n">palette</span><span class="o">=</span><span class="n">bokeh</span><span class="o">.</span><span class="n">palettes</span><span class="o">.</span><span class="n">Turbo256</span><span class="p">,</span> <span class="n">low</span><span class="o">=</span><span class="mf">0.8</span><span class="p">,</span> <span class="n">high</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">color_bar</span> <span class="o">=</span> <span class="n">bokeh</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">ColorBar</span><span class="p">(</span><span class="n">color_mapper</span><span class="o">=</span><span class="n">mapper</span><span class="p">[</span><span class="s1">&#39;transform&#39;</span><span class="p">],</span> <span class="n">width</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span>  <span class="n">location</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">))</span>
 <span class="n">p</span><span class="o">.</span><span class="n">circle</span><span class="p">(</span><span class="s1">&#39;f_0&#39;</span><span class="p">,</span> <span class="s1">&#39;f_1&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="n">mapper</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">source</span><span class="o">=</span><span class="n">d</span><span class="p">)</span>
 
@@ -15857,7 +15851,7 @@ pid[90394] 2020-10-09 22:39:14.722 INFO: Making directory ./minimap2/
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 
 
 
@@ -15893,7 +15887,7 @@ pid[90394] 2020-10-09 22:39:14.722 INFO: Making directory ./minimap2/
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">clst</span><span class="p">[</span><span class="n">clst</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;cluster10&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
@@ -15912,7 +15906,7 @@ pid[90394] 2020-10-09 22:39:14.722 INFO: Making directory ./minimap2/
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
 
 
 
@@ -15932,7 +15926,7 @@ pid[90394] 2020-10-09 22:39:14.722 INFO: Making directory ./minimap2/
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">c</span> <span class="o">=</span> <span class="p">[(</span><span class="s1">&#39;1a27a9&#39;</span> <span class="ow">in</span> <span class="n">rid</span><span class="p">)</span> <span class="k">for</span> <span class="n">rid</span> <span class="ow">in</span> <span class="n">prf</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">]]</span>
@@ -15952,7 +15946,7 @@ pid[90394] 2020-10-09 22:39:14.722 INFO: Making directory ./minimap2/
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
 
 
 
