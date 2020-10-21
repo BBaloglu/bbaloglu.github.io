@@ -1,8 +1,8 @@
 ---
-title: "Our paper *Ångström- and Nano-scale Pore-Based Nucleic Acid Sequencing of Current and Emergent Pathogens* got accepted in MRS Advances."
+title: "I am invited to give talks at Istanbul University and Istanbul Technical University."
 author: "Bilgenur Baloglu"
 layout: post
 categories: news
 text: true
-tags: [women scientists, paper, nanopore, material science] 
+tags: [women scientists, paper, nanopore, talks] 
 ---
