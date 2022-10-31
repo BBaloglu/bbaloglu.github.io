@@ -10,7 +10,7 @@ tags: [women scientists, bilim kadinlari, panel, academia, industry, bioinformat
 
 I was invited by [Braid Theory](https://www.braidtheory.com/) for their event called [Let's B. Cereus: Biotech Beyond Human Health](https://www.eventbrite.com/e/lets-b-cereus-biotech-beyond-human-health-tickets-399613764527) hosted by [BioscienceLA](https://www.google.com/search?client=firefox-b-1-d&q=BioscienceLA). 
 
-The focus of the event was biomanufacturing in Southern California, challenges and advantages of having a biotech start up in Los Angeles, and the (bioinformatics) tools improve throughput in synthetic biology. There were interesting discussions around how we can improve the LA biotech ecosystem for climatetech and bluetech start ups.
+The focus of the event was biomanufacturing in Southern California, challenges and advantages of having a biotech start up in Los Angeles, and the (bioinformatics) tools to improve throughput in synthetic biology. There were interesting discussions around how we can improve the LA biotech ecosystem for climatetech and bluetech start ups.
 
 It was very exciting to be joined by some very talented scientists and entrepreneurs, such as Stanley Maloy of San Diego State University, Gabriel Levesque-Tremblay of Orbillion Bio, and Pavle Stojkovic of Omeat. 
 
